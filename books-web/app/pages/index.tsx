@@ -63,15 +63,11 @@ const BooksHome: React.FC = () => {
   };
 
   const handleViewDetails = (book: Book) => {
-    console.log('seleccionado Details', book);
-    // TODO. It should update the info inside the Form
     setSelectedBook(book);
     setIsViewOnly(true);
   };
 
   const handleSelectBook = (book: Book) => {
-    console.log('seleccionado', book)
-    // TODO. It should update the info inside the Form
     setSelectedBook(book);
     setIsViewOnly(false);
   };
@@ -98,6 +94,7 @@ const BooksHome: React.FC = () => {
         <div>
           <h3 className="mt-4">{isViewOnly ? 'Book Details' : 'Edit Book'}</h3>
           <BookForm
+            key={selectedBook._id} // Add key to trigger re-render when selectedBook changes
             onSubmit={handleUpdate}
             initialValues={selectedBook}
             isViewOnly={isViewOnly}
