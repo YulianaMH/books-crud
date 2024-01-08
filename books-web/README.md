@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project to manage CRUD functionalities 
 
 ## Requirements
 - [Node.js 18.17](https://nodejs.org/) or later.
-- Run the local "books-app" [instructions](https://https://github.com/YulianaMH/books-crud/books-app)
+- Run the local "books-app" [instructions](https://github.com/YulianaMH/books-crud/tree/main/books-app)
 
 ## Run app locally
 - Inside the repository root go to books-web/ folder and Install dependencies

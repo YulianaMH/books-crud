@@ -27,4 +27,4 @@ npm run start:dev
 
 - Open [http://localhost:3001/documentation](http://localhost:3001/documentation) with your browser to see the result. 
 
-- Now you can create, update, delete and list books. Run the available endpoints either from the Swagger documentation or from a client (Postman, [Books-web](https://https://github.com/YulianaMH/books-crud/books-web) app).
+- Now you can create, update, delete and list books. Run the available endpoints either from the Swagger documentation or from a client (Postman, [Books-web](https://github.com/YulianaMH/books-crud/tree/main/books-web) app).
